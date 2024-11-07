@@ -3,7 +3,7 @@ import sys
 import os
 
 serverSocket = socket(AF_INET, SOCK_STREAM)
-serverPort = 6788
+serverPort = 6799
 serverSocket.bind(('', serverPort))
 serverSocket.listen(1)
 
